@@ -1,33 +1,3 @@
-Potcoin integration/staging tree
-================================
-
-http://www.potcoin.com
-
-Copyright (c) 2009-2015 Bitcoin Developers
-Copyright (c) 2011-2015 Litecoin Developers
-Copyright (c) 2014 Reddcoin Developers
-Copyright (c) 2015 Potcoin Developers
-
-What is Potcoin?
-----------------
-
-Around August 1st 2015, at block 975,000 Potcoin transitioned to Proof-of-Stake-Velocity (PoSV)
-algorithm which replaced Proof-of-Work (PoW).
- - 40 Second block target
- - just under 220 million mined in PoW phase
- - 5% annual interest in PoSV phase
- - difficulty retarget: every block using Kimoto's gravity well
-
-Potcoin first started in January 2014 as a variant of Litecoin using Scrypt as
-the Proof-of-Work (PoW) hash algorithm.
- - 40 Second block target
- - 420 coins per block
- - subsidy halves every 280,000 blocks
- - difficulty retarget: every block using Kimoto's gravity well + Digisheild
-
-For more information, as well as an immediately useable, binary version of
-the Potcoin wallet client, please visit http://www.potcoin.com.
-
 License
 -------
 
@@ -47,8 +17,7 @@ If it is a *more complicated or potentially controversial* change, then the patc
 submitter will be asked to start a discussion (if they haven't already) on the
 appropriate channels.
 
-The patch will be accepted if there is broad consensus that it is a good thing.
-Developers should expect to rework and resubmit patches if the code doesn't
+The patch will be accepted if there is broad consensus that it is a good thing.Developers should expect to rework and resubmit patches if the code doesn't
 match the project's coding conventions (see `doc/coding.txt`) or are
 controversial.
 
